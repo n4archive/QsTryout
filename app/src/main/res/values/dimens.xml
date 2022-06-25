@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="qs_tile_icon_size">24dp</dimen>
+	<dimen name="qs_tile_background_size">48dp</dimen>
+	<dimen name="qs_quick_tile_size">48dp</dimen>
+	<dimen name="qs_quick_tile_padding">12dp</dimen>
+	<dimen name="qs_tile_text_size">12sp</dimen>
+	<dimen name="restricted_padlock_pading">4dp</dimen>
+</resources>

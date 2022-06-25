@@ -1,0 +1,16 @@
+<resources>
+	<string name="app_name">QsTryout</string>
+
+	<!-- Label for feature switch [CHAR LIMIT=30] -->
+	<string name="switch_bar_on">On</string>
+
+	<!-- Label for feature switch [CHAR LIMIT=30] -->
+	<string name="switch_bar_off">Off</string>
+
+	<!-- Accessibility description for long click on a quick settings tile - this is used in the
+	 context of the sentence "double tap and hold to _Open settings_" [CHAR LIMIT=NONE] -->
+	<string name="accessibility_long_click_tile">Open settings</string>
+
+	<!-- The tile in quick settings is unavailable. [CHAR LIMIT=32] -->
+	<string name="tile_unavailable">Unavailable</string>
+</resources>

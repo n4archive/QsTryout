@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="TextAppearance" />
+
+	<style name="TextAppearance.QS">
+		<item name="android:textStyle">normal</item>
+		<item name="android:textColor">?android:attr/textColorPrimary</item>
+	</style>
+
+	<style name="TextAppearance.QS.TileLabel">
+		<item name="android:textSize">@dimen/qs_tile_text_size</item>
+	</style>
+
+	<style name="TextAppearance.QS.TileLabel.Secondary">
+		<item name="android:textSize">@dimen/qs_tile_text_size</item>
+	</style>
+</resources>
