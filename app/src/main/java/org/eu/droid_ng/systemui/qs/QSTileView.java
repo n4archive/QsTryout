@@ -90,7 +90,7 @@ public class QSTileView extends QSTileBaseView {
     @Override
     protected void onConfigurationChanged(Configuration newConfig) {
         super.onConfigurationChanged(newConfig);
-        int qs_tile_text_size = mContext.getResources().getIdentifier("qs_tile_text_size", "dimen", "com.android.systemui");
+        int qs_tile_text_size = R.dimen.qs_tile_text_size;
         FontSizeUtils.updateFontSize(mLabel, qs_tile_text_size);
         FontSizeUtils.updateFontSize(mSecondLine, qs_tile_text_size);
     }
