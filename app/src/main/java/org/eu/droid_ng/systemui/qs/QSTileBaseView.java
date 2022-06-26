@@ -16,6 +16,7 @@ package org.eu.droid_ng.systemui.qs;
 import static org.eu.droid_ng.systemui.qs.QSIconViewImpl.QS_ANIM_LENGTH;
 
 import android.animation.ValueAnimator;
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.res.ColorStateList;
 import android.content.res.Resources;
@@ -47,6 +48,7 @@ import com.android.systemui.plugins.qs.QSIconView;
 import com.android.systemui.plugins.qs.QSTile;
 import com.android.systemui.plugins.qs.QSTile.BooleanState;
 
+@SuppressLint("ViewConstructor")
 public class QSTileBaseView extends com.android.systemui.plugins.qs.QSTileView {
     /* ng: fix build */
     protected Context mContext;
@@ -60,7 +62,7 @@ public class QSTileBaseView extends com.android.systemui.plugins.qs.QSTileView {
     private Drawable mTileBackground;
     private String mAccessibilityClass;
     private boolean mTileState;
-    private boolean mCollapsedView;
+    protected boolean mCollapsedView;
     private boolean mShowRippleEffect = true;
     private float mStrokeWidthActive;
     private float mStrokeWidthInactive;
